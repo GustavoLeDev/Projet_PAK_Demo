@@ -1,7 +1,7 @@
 node{
     
     stage('Clonnage du repository'){
-        git branch: 'main', changelog: false, credentialsId: 'Git-credentiel', url: 'https://github.com/GustavoLeDev/Projet_PAK_Demo.git'
+        git 'https://github.com/GustavoLeDev/Projet_PAK_Demo.git'
     }
     
     stage('Maven Build'){

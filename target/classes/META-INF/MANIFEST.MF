@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: Kervy Gustave EKONA
+Build-Jdk: 17.0.7
+Main-Class: vue.FenetreDeConnexion
+Created-By: Maven Integration for Eclipse
+

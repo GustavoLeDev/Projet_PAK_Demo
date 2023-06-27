@@ -1,4 +1,7 @@
-node{
+node {
+     stage('SCM') {
+    checkout scm
+    }
     
     stage('Clonnage du repository'){
         git 'https://github.com/GustavoLeDev/Projet_PAK_Demo.git'
